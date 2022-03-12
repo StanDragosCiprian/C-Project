@@ -1,0 +1,13 @@
+//---------------------------------------------------------------------------
+
+#ifndef PionAH
+#define PionAH
+//---------------------------------------------------------------------------
+class PionA{
+ public:
+ TImage *pionA;
+ public:
+ PionA();
+ void position(int x,int y);
+};
+#endif
